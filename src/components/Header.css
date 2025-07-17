@@ -1,0 +1,18 @@
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.navigation ul{
+    display: flex;
+    gap: 2em;
+    color: white;
+    list-style-type: none;
+}
+.btn{
+    background-color: #EDFF8166;
+    border: 1px;
+    border-radius: 116px;
+    padding: 10px 20px;
+    color: white;
+}
