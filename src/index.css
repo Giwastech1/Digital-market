@@ -5,11 +5,12 @@
 .logo-icons{
     display: flex;
     justify-content: space-around;
-    background-color: azure;
+    background-color: #F6FBF9;
 }
 .icons img{
     
     height: 20px;
     width: 65px;
     padding: 25px 0;
+    cursor: pointer;
 }

@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import SecondHeroSec from "./components/SecondHeroSec";
 import UpperFooter from "./components/UpperFooter";
 import UpperHero from "./components/UpperHero";
 
@@ -10,7 +11,7 @@ function App() {
         <UpperHero />
       </div>
       <UpperFooter />
-      
+      <SecondHeroSec />
     </div>
   );
 }
