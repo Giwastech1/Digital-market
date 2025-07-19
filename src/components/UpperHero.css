@@ -1,0 +1,46 @@
+.upper-hero{
+  background-image: url("/Group 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+.best{
+    display: inline;
+    color: white;
+}
+.upper-hero-content{
+    text-align: center;
+    margin-top: 80px;
+}
+.vector{
+    margin: 0 10px 5px;
+}
+.digital-market{
+    font-size: 4em;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0;
+}  
+.z-vector {
+  width: 260px;
+    margin-left:200px;
+    position: relative;
+    top: 0;
+}
+
+.hero-text{
+    color: white;
+    margin-top: 10px;
+}
+.get-started-btn{
+    background-color: #98AA28;
+    border: 1px;
+    border-radius: 116px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 120px;
+
+}

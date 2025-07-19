@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import UpperFooter from "./components/UpperFooter";
 import UpperHero from "./components/UpperHero";
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
         <Header />
         <UpperHero />
       </div>
+      <UpperFooter />
+      
     </div>
   );
 }
