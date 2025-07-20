@@ -1,0 +1,73 @@
+🇵.help-section {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.help-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #253D32;
+}
+
+.help-subtitle {
+  font-size: 16px;
+  color: #78847D;
+  margin-bottom: 40px;
+}
+
+.step-line {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.step-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.step-circle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #C9F87C;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  translate: -50% ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  z-index: 1;
+}
+
+.diamond-shape {
+  width: 14px;
+  height: 14px;
+  background-color: #C9F87C;
+  transform: rotate(45deg);
+}
+
+.dotted-line {
+  position: absolute;
+  top: 18px;
+  left: 100%;
+  width: 110px;
+  height: 2px;
+  border-top: 2px dotted #A2BDAA;
+  z-index: 0;
+}
+
+.step-label {
+  margin-top: 10px;
+  max-width: 120px;
+  font-size: 14px;
+  color: #78847D;
+}

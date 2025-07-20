@@ -1,4 +1,5 @@
 import Content from "./Content";
+import HelpStep from "./HelpStep";
 import "./SecondHeroSec.css";
 function SecondHeroSec() {
     return (
@@ -36,6 +37,9 @@ function SecondHeroSec() {
                     <h2 className="heading lower-heading">Increase Business on Social Media Reach</h2>
                     <p className="paragraph lower-paragraph">Using our network of industry influencers, we help promote your content</p>
                     <button className="btn">Get Started</button>
+                </div>
+                <div>
+                    <HelpStep />
                 </div>
             </div>
         </>

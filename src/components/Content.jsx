@@ -1,5 +1,4 @@
 function Content(props) {
-    console.log(props);
     return (
         <div className="content-cont">
             <img src={props.img} alt="" />

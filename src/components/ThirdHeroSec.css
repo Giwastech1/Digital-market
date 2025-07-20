@@ -1,0 +1,46 @@
+.third-lower-content{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+.date{
+    display: block;
+}
+.img-size{
+    width: 320px;
+    height: 270pxpx;
+}
+.lower-img-size{
+    width: 180px;
+    height: 150px;
+}
+.left-content{
+width: 30%;
+}
+.eye{
+    height: 120px;
+}
+.left-heading{
+    width: 40%;
+    padding-bottom: 15px;
+}
+.sub-content{
+    width: 75%;
+    padding: 10px 0;
+}
+.heading{
+    padding-bottom: px;
+}
+.lower-title{
+    padding-bottom: 25px;
+}
+.read-button{
+     background-color: white;
+    border: 1px solid #98AA28;
+    border-radius: 116px;
+    color: #98AA28;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin-top: 10px;
+}
