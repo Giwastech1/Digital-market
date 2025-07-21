@@ -8,6 +8,7 @@
     gap: 2em;
     color: white;
     list-style-type: none;
+    cursor: pointer;
 }
 .btn{
     background-color: #EDFF8166;
@@ -15,4 +16,5 @@
     border-radius: 116px;
     padding: 10px 20px;
     color: white;
+    cursor: pointer;
 }

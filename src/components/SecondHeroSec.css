@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 65px 0;
+}
+.text{
+    width: 20%;
+}
+.heading{
+    color: #253D32;
+    padding-bottom: 10px;
+}
+.paragraph{
+    color: #78847D;
+}
+.link{
+    padding-top: 10px;
+    color: #A3B938;
+    display: block;
+}
+.content-box{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.lower-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.media-icon{
+    height: 240px;
+    width: 370px;
+    padding-right: 80px;
+}
+.lower-text{
+    padding-top: 30px;
+    
+}
+.lower-paragraph{
+    padding:5px 0 15px ;
+}
+.btn{
+    background-color: #98AA28;
+    border: 1px;
+    border-radius: 116px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.help-section{
+    text-align: center;
+    padding: 45px 0;
+    background-color: #F6FBF9;
+}
