@@ -38,10 +38,8 @@ function SecondHeroSec() {
                     <p className="paragraph lower-paragraph">Using our network of industry influencers, we help promote your content</p>
                     <button className="btn">Get Started</button>
                 </div>
-                <div>
-                    <HelpStep />
-                </div>
             </div>
+            <HelpStep />
         </>
     );
 }

@@ -49,3 +49,8 @@
     font-weight: 600;
     cursor: pointer;
 }
+.help-section{
+    text-align: center;
+    padding: 45px 0;
+    background-color: #F6FBF9;
+}
