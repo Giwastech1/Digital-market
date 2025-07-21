@@ -20,3 +20,255 @@
 .paragraph{
     color: #78847D;
 }
+/* Media Query */
+
+@media (max-width: 600px) {
+  body, html {
+    font-size: 16px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.15em;
+  }
+  p, a, small, label, li, button, input, select, textarea {
+    font-size: 1em;
+  }
+}
+
+/* ========== UPPER HERO SECTION ========== */
+@media (max-width: 600px) {
+  .upper-hero-content {
+    margin-top: 40px;
+    padding: 0 8px;
+  }
+  .digital-market {
+    font-size: 2em !important;
+    margin-top: 12px;
+  }
+  .z-vector {
+    width: 110px !important;
+    margin-left: 0 !important;
+    top: 0;
+  }
+  .hero-text {
+    font-size: 1em !important;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .get-started-btn {
+    width: 100%;
+    font-size: 1.08em !important;
+    margin-top: 32px;
+    margin-bottom: 36px;
+    padding: 14px 0;
+  }
+  .vector {
+    width: 20px !important;
+    margin: 0 6px 3px;
+  }
+}
+
+/* ========== SECOND HERO SECTION (ABOUT, SERVICES) ========== */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column !important;
+    padding: 24px 8px !important;
+    gap: 32px;
+    align-items: stretch !important;
+  }
+  .text, .heading, .paragraph, .link {
+    width: 100% !important;
+    text-align: center;
+    font-size: 1.08em !important;
+  }
+  .content-box {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+  .lower-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    padding-bottom: 24px;
+    gap: 24px;
+  }
+  .media-icon {
+    width: 90vw !important;
+    max-width: 100%;
+    height: auto !important;
+    padding-right: 0;
+    margin: 0 auto;
+    display: block;
+  }
+  .lower-text {
+    padding-top: 8px;
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.08em !important;
+  }
+  .help-section {
+    padding: 24px 8px;
+    font-size: 1em !important;
+  }
+}
+
+/* ========== THIRD HERO (BLOG/ARTICLES) ========== */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column !important;
+    gap: 24px;
+    padding: 24px 8px !important;
+  }
+  .left-content {
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 24px;
+  }
+  .img-size, .lower-img-size {
+    width: 90vw !important;
+    max-width: 180px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto 10px !important;
+  }
+  .third-lower-content {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 24px !important;
+    align-items: center !important;
+  }
+  .sub-content, .heading, .lower-title {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 8px 0 !important;
+  }
+  .read-button {
+    width: 100% !important;
+    padding: 14px 0 !important;
+    font-size: 1.08em !important;
+  }
+  .eye {
+    height: 48px !important;
+  }
+}
+
+/* ========== SUBSCRIPTION BOX & FOOTER ========== */
+@media (max-width: 600px) {
+  .subscription-box {
+    width: 98% !important;
+    padding: 24px 8px !important;
+    border-radius: 8px !important;
+    min-width: unset !important;
+  }
+  .subscription-content {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+  }
+  .subscription-heading, .logo-placeholder, .footer-title {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 1.09em !important;
+  }
+  .subscription-form {
+    flex-direction: column !important;
+    gap: 12px !important;
+    align-items: stretch !important;
+  }
+  .subscription-input {
+    width: 100% !important;
+    font-size: 1em !important;
+    padding: 12px !important;
+  }
+  .subscription-button {
+    width: 100% !important;
+    padding: 14px 0 !important;
+    font-size: 1.08em !important;
+  }
+  .cube-img {
+    position: static !important;
+    width: 90px !important;
+    margin: 16px auto 0 !important;
+    display: block !important;
+  }
+  .footer {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    padding: 36px 8px 10px !important;
+    text-align: left !important;
+  }
+  .footer-section {
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+  .footer-socials {
+    gap: 18px !important;
+    padding-left: 0 !important;
+    justify-content: flex-start !important;
+  }
+  .footer-logo, .footer-copy {
+    text-align: center !important;
+    font-size: 1.08em !important;
+  }
+}
+
+/* ========== UPPER FOOTER (LOGO ROW) ========== */
+@media (max-width: 600px) {
+  .logo-icons {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 16px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 12px 0 !important;
+  }
+  .icons {
+    margin: 8px 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: 120px !important;
+  }
+  .icons img {
+    width: 70px !important;
+    height: auto !important;
+  }
+}
+
+/* ========== NAVIGATION (ADJUST .nav TO YOUR ACTUAL CLASS) ========== */
+@media (max-width: 600px) {
+  .nav, .navbar, .main-nav, .site-nav {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+    padding: 8px 0 !important;
+    font-size: 1.08em !important;
+  }
+  .nav li, .navbar li, .main-nav li, .site-nav li {
+    margin: 0 0 8px 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+}
+
+/* ========== IMAGE AND ICONS (CATCH-ALL) ========== */
+@media (max-width: 600px) {
+  img, svg, picture, .icon, .media-icon {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+  }
+}
+
+/* ========== UTILITY: FLEX/GRID AUTO-STACK (CATCH-ALL) ========== */
+@media (max-width: 600px) {
+  [class*="row"], [class*="flex"], [class*="grid"], [class*="container"], [class*="section"] {
+    flex-direction: column !important;
+    grid-template-columns: 1fr !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
